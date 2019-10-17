@@ -1,0 +1,45 @@
+package sub1;
+
+public class MethodTypeTest {
+	public static void main(String[] args) {
+		int rs1 =type1(2,4);
+		System.out.println("rs1: "+rs1);
+		
+		int arr[] = {1,2,3,4,5,6,7,8,9,10};
+		type2(arr);
+		
+		double rs2 = type3()*5*5;
+		System.out.println("반지름이 5인 원의 넓이: "+rs2);
+		
+		type4();
+		
+		
+	}
+	
+	//타입1 -매개변수o,리턴값o
+	public static int type1(int a, int b) {
+		int c= a + b;
+		return c;
+	}
+	
+	
+	//타입2 -매개변수o,리턴값x
+	public static void type2(int[] score) {
+		int sum = 0;
+		for(int s:score) {
+			sum+= s;
+		}
+		
+	}
+	//타입3 -매개변수x,리턴값o
+	public static double type3() {
+		return 3.14;
+	}
+	//타입4 -매개변수x,리턴값x
+	public static void type4() {
+		int result =type1(3,7);
+		System.out.println("type4의 result: "+result);
+		
+	}
+
+}

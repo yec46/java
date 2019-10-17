@@ -1,0 +1,21 @@
+package sub2;
+
+/*
+ * 날짜 : 2019.10.14
+ * 이름 : 이정민
+ * 내용 : while문
+*/
+
+public class WhileTest 
+{
+	public static void main(String[] args) 
+	{
+		//1부터 10까지의 합
+		int k=1,sum=0;
+		while(k<=10)
+		{
+			sum+=k;
+		}
+		System.out.println("1부터 10까지의 합:"+sum);
+	}
+}

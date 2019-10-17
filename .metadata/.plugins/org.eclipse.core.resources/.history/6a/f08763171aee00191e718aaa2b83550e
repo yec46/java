@@ -1,0 +1,19 @@
+package sub2;
+
+/*
+ * 날짜 : 2019.10.14
+ * 이름 : 이정민
+ * 내용 : for문
+*/
+
+public class ForTest 
+{
+	public static void main(String[] args) 
+	{
+		int i;
+		for(i=0;i<5;i++)
+		{
+			System.out.println("Hello Java!");	
+		}
+	}
+}

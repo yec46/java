@@ -1,0 +1,24 @@
+package sub1;
+
+/*
+ * 날짜 : 2019.10.11
+ * 이름 : 이정민
+ * 내용 : 조건문 (P.108)
+*/
+
+public class ConditionTest 
+{
+	public static void main(String[] args) 
+	{
+		//if
+		int nun=1, num=2;
+		if(num1>num2)
+		{
+			System.out.println("num1이 num2보다 크다.");
+		}
+		//if~else
+		//if~else if~else
+		//switch
+		System.out.println("프로그램 종료...");
+	}
+}

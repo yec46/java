@@ -1,0 +1,15 @@
+package p125;
+
+/*
+ * 날짜 : 2019.10.14
+ * 이름 : 이정민
+ * 내용 : p125
+*/
+
+public class WhilePrintFrom1To100Example 
+{
+	public static void main(String[] args) 
+	{
+		
+	}
+}

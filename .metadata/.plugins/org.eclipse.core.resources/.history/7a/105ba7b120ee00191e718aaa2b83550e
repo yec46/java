@@ -1,0 +1,60 @@
+package sub2;
+
+/*
+ * 날짜 : 2019.10.14
+ * 이름 : 이정민
+ * 내용 : for문
+*/
+
+public class ForTest 
+{
+	public static void main(String[] args) 
+	{
+		//for
+		for(int i=1;i<=5;i++)
+		{
+			System.out.println("Hello Java!");	
+		}
+		
+		//1부터 10까지합
+		int sum=0, k;
+		for(k=1;k<=10;k++)
+		{
+			sum=sum+k;
+		}
+		System.out.println("1부터 10까지 합:"+sum);
+		
+		//1부터 10까지 짝수의 합
+		int total=0, i;
+		for(i=1;i<=10;i++)
+		{
+			if(i%2==0)
+			{
+				total+=i;
+			}			
+		}
+		System.out.println("1부터 10까지 짝수의 합:"+total);
+		
+		//중첩 for문
+		int a,b;
+		for(a=1;a<=3;a++)
+		{
+			System.out.println("a:"+a);
+			for(b=1;b<=5;b++)
+			{
+				System.out.println("b:"+b);
+			}
+		}
+		
+		//구구단 출력
+		int x,y,z;
+		for(x=2;x<=9;x++) 
+		{
+			for(y=1;y<=9;y++)
+			{
+				int z=x*y;
+				System.out.println(x+"x"+y+"="+z);
+			}
+		}
+	}
+}

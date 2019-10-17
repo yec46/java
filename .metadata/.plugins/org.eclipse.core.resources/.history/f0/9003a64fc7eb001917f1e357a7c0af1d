@@ -1,0 +1,43 @@
+package sub1;
+
+/*
+ * 날짜 : 2019.10.11
+ * 이름 : 이정민
+ * 내용 : 조건문 (P.108)
+*/
+
+public class ConditionTest 
+{
+	public static void main(String[] args) 
+	{
+		//if
+		int num1=1, num2=2;
+		if(num1>num2)
+		{
+			System.out.println("num1이 num2보다 크다.");
+		}
+		
+		//중첩 if
+		if(num1>0) // if(num1>0&&num2>1) 
+		{
+			if(num2>1)
+			{
+				System.out.println("num1은 0보다 크고 num2는 1보다 크다.");
+			}
+		}
+				
+		//if~else
+		if()
+		{
+			System.out.println("");
+		}
+		else
+		{
+			System.out.println("");
+		}
+		
+		//if~else if~else
+		//switch
+		System.out.println("프로그램 종료...");
+	}
+}
