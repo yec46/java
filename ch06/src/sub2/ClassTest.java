@@ -5,8 +5,6 @@ package sub2;
  * 내용: 자바클래스 실습하기p.276보거라
  */
 
-import sub1.Account;
-import sub1.Computer;
 
 public class ClassTest {
 	public static void main(String[] args) {
@@ -43,16 +41,16 @@ public class ClassTest {
 		wr.info();
 		
 		//컴퓨터 객체생성
-		Computer samsung= new Computer("INTEL i7", "8GB", "1TB");
-		Computer imac= new Computer("INTEL i5", "4GB", "512GB");
+		//Computer samsung = new Computer("INTEL i7", "8GB", "1TB");
+		//Computer imac    = new Computer("INTEL i5", "4GB", "512GB");
 		
-		samsung.info();
-		samsung.calc();
-		samsung.internet();
+		//samsung.info();
+		//samsung.calc();
+		//samsung.internet();
 		
-		imac.info();
-		imac.calc();
-		imac.internet();
+		//imac.info();
+		//imac.calc();
+		//imac.internet();
 		
 	}
 }

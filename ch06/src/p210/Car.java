@@ -1,5 +1,5 @@
 package p210;
-import 
+
 public class Car {
 	//필드
 	String company = "현대자동차";
@@ -26,4 +26,3 @@ public class Car {
 	
 		
 	}
-}
