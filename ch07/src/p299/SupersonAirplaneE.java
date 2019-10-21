@@ -1,0 +1,16 @@
+package p299;
+
+public class SupersonAirplaneE {
+	public static void main(String[] args) {
+		SupersonicAirplane sa = new SupersonicAirplane();
+		sa.takeOff();
+		sa.fly();
+		sa.flymode =SupersonicAirplane.SUPERSONIC;
+		sa.fly();
+		sa.flymode = SupersonicAirplane.NORMAL;
+		sa.fly();
+		sa.Land();
+				
+	}
+
+}
